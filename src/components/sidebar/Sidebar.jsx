@@ -41,7 +41,7 @@ export const Sidebar = () => {
               </li>
 
               <li className="menu-list font-medium hover:text-[--black3] hover:font-bold">
-                <a href="#" className="flex">
+                <a href="/popular" className="flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -60,7 +60,7 @@ export const Sidebar = () => {
                 </a>
               </li>
               <li className="menu-list font-medium hover:text-[--black3] hover:font-bold">
-                <a href="#" className="flex">
+                <a href="/my_threads" className="flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ export const Sidebar = () => {
                 </Link>
               </li>
               <li className="menu-list font-medium hover:text-[--black3] hover:font-bold">
-                <Link to="/signup">
+                <Link to="/signin">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

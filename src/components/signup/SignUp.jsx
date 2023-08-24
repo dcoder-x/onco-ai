@@ -12,16 +12,20 @@ export const SignUp = () => {
     try {
       const response = await axios.post('https://new-oncoai-backend-u47ha3uopq-uc.a.run.app/users/register/',json,{
         headers:{
-         " x-api-key":''
+         " x-api-key":'2342wedssdfhb5on7',
+         'Access-Control-Allow-Origin' : '*',
         }
       })
   
       if (response) {
-        console.log(response)
+        console.log(response,'response')
+        // toast("Something went wrong!");
       }
     } catch (error) {
-      console.log(error)
-      toast.error('something went wrong try again')
+      console.log(error,'error')
+      toast.error("Something went wrong!", {
+        position: toast.POSITION.TOP_LEFT
+      });
     }
   }
   return (
