@@ -1,12 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Footer } from "./components/footer/Footer";
-import { Header } from "./components/header/Header";
 import { NavMobile } from "./components/mobile-nav/Nav";
 import { AiProfile } from "./components/pages/AiProfile/Aiprofile";
 import { Home } from "./components/pages/Home/Home";
 import { Sidebar } from "./components/sidebar/Sidebar";
-import { SignUp } from "./components/signup/signUp";
+import { SignUp } from "./components/signup/SignUp";
 import { HowItWorks } from "./components/pages/HowItWorks/HowItWorks";
 import { SignIn } from "./components/signIn/Signin";
 import { Toaster } from "react-hot-toast";
